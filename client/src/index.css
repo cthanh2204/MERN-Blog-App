@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
@@ -16,3 +17,8 @@ body {
   margin: 0;
   min-height: 100%;
 }
+=======
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+>>>>>>> bbef57a2b95eac653e457c0cc1430b94668c07fd
