@@ -9,7 +9,7 @@ const SignIn = () => {
   };
 
   const onFinish: FormProps<FieldType>["onFinish"] = (values) => {
-    console.log("Success:", values.username);
+    console.log("Success:", values);
   };
 
   const onFinishFailed: FormProps<FieldType>["onFinishFailed"] = (
