@@ -1,13 +1,11 @@
 import { FormProps } from "antd";
 import { Button, Form, Input } from "antd";
 import { Link } from "react-router-dom";
-
+type FieldType = {
+  username: string; 
+  password: string;
+};
 const SignIn = () => {
-  type FieldType = {
-    username?: string;
-    password?: string;
-  };
-
   const onFinish: FormProps<FieldType>["onFinish"] = (values) => {
     console.log("Success:", values);
   };
